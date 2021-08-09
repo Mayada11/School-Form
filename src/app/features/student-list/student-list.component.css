@@ -1,0 +1,24 @@
+.studentListSchool {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  height: 50%;
+  margin-top: 2rem;
+  align-content: center;
+}
+.studentListSchool .cardContent {
+  width: 100%;
+  border: none;
+}
+.studentListSchool .sidesection {
+  background-color: #7196b7;
+  width: 20%;
+  border-radius: 20% 0% 0% 20%;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.studentListSchool .sideRight {
+  border-radius: 0% 20% 20% 0%;
+  width: 80%;
+}

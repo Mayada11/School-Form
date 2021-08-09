@@ -1,0 +1,59 @@
+.FormCont .form-group .schoolLbl{
+    font-size: 1.5rem;
+    color: rgb(122, 118, 118);
+}
+.FormCont{
+   
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* margin-top: 2rem; */
+    padding:0.7rem;
+    background-color: white;
+}
+.FormCont .btn-done{
+color: #7196b7
+;
+font-weight:bold ;
+text-decoration: none;
+border: none;
+background-color: white; 
+}
+.FormCont .btn-cancel{
+    font-weight:bold ; 
+    text-decoration: none;
+    border: none;
+    background-color: white;  
+}
+.FormCont .btns{
+display: flex;
+float: right;
+margin-top: 1rem;
+}
+.FormCont .btn-addClass{
+    color: #7196b7    ;
+    font-weight: bold;
+   
+}
+.FormCont .btn-addClass,button:focus{
+  text-decoration: none;
+  border: none;
+  outline: none;
+    }
+  
+.FormCont .spanAdd{
+    border-radius: 150%;
+    background-color: #7196b7 ;
+    color: white;
+}
+.FormCont .borderButton{
+    border-bottom: .5px solid #7196b7;
+    margin-bottom: 2rem;
+   
+}
+.FormCont .table{
+    margin-top: 2rem;
+}
+.FormCont .fa-trash-alt{
+color: #ff4c4c;}

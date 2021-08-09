@@ -1,0 +1,34 @@
+
+<div *ngFor="let list of Lists;let i = index" class="studentListSchool">
+    <div class="card mb-3 cardContent" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4 sidesection">
+          {{list.sectionName}}
+          </div>
+          <div class="col-md-8 sideRight">
+            <div class="card-body">
+              <h5 class="card-title"> {{list.className}}</h5>
+              <p class="card-text"><small class="text-muted">school:{{list.website}}</small></p>
+              <p class="card-text"><small class="text-muted">Grade:{{list.Grades}}</small></p>
+            </div>
+          </div>
+        </div>
+      </div> 
+  </div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

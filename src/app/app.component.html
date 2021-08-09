@@ -1,0 +1,8 @@
+    <div class="landingPage" >
+      <div class="container" >
+        <app-student-form (classesCreates)="onclassesAdded($event)"></app-student-form>
+        <app-student-list [Lists]="storedClasses"></app-student-list>
+      </div>
+    </div>
+
+
